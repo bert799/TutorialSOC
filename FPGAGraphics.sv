@@ -5,16 +5,17 @@ module FPGAGraphics (
 );
 
 
-wire clk_pix;
+wire clk_pxl_25;
+wire clk_pxl_75;
 wire clk_pix_locked;
 
-clock_480p pxl_clk 
+PLL75_50 alt_clk_spd 
 (
-	.clk_50(clk_50),
+	.refclk(clk_50),
 	.rst(rst),
-	.clk_pix(clk_pix),
-	.clk_pix_locked(clk_pix_locked)
-	
+S
+	.outclk_1(clk_pix_75),
+	.locked(clk_pix_locked)
 );
 
 endmodule
