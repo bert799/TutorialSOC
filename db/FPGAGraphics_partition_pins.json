@@ -2,7 +2,172 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "VGA_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLANK_N",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_HS",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_VS",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[7]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[8]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[9]",
+					"strict" : false
+				},
+				{
+					"name" : "H_Cont[10]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[0]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[1]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[2]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[3]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[4]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[5]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[6]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[7]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[8]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[9]",
+					"strict" : false
+				},
+				{
+					"name" : "V_Cont[10]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/soc/Documents/Tutorial_SOC/simulation/qsim
+vFPGAGraphics
+Z1 !s110 1701363590
+!i10b 1
+!s100 ?UF[`hH=Tn>hJ]mXL`LFW0
+I@Z1Y@FSBflDYG<3VBje_K2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1701363590
+8FPGAGraphics.vo
+FFPGAGraphics.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701363590.000000
+!s107 FPGAGraphics.vo|
+!s90 -work|work|FPGAGraphics.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@f@p@g@a@graphics
+vFPGAGraphics_vlg_vec_tst
+R1
+!i10b 1
+!s100 beef:=NYi[>Ea3eWbM@IX3
+IGl^]Xi6BIDOf7VcoV??3T3
+R2
+R0
+w1701363588
+8output_files/Waveform.vwf.vt
+Foutput_files/Waveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 output_files/Waveform.vwf.vt|
+!s90 -work|work|output_files/Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@f@p@g@a@graphics_vlg_vec_tst
