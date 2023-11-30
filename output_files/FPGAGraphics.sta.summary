@@ -2,148 +2,164 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1100mV 85C Model Setup 'clk_pix_25'
-Slack : -3.454
-TNS   : -72.377
+Type  : Slow 1100mV 85C Model Setup 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -8.277
+TNS   : -159.980
 
 Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
-Slack : -2.878
-TNS   : -9.758
+Slack : -6.173
+TNS   : -11.376
 
 Type  : Slow 1100mV 85C Model Setup 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : -2.364
-TNS   : -41.513
+Slack : -5.038
+TNS   : -41.141
+
+Type  : Slow 1100mV 85C Model Hold 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.599
+TNS   : -17.294
 
 Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
-Slack : -0.008
-TNS   : -0.008
-
-Type  : Slow 1100mV 85C Model Hold 'clk_pix_25'
-Slack : 0.407
-TNS   : 0.000
+Slack : -0.644
+TNS   : -0.644
 
 Type  : Slow 1100mV 85C Model Hold 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : 0.539
+Slack : 0.386
 TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -0.579
-TNS   : -2.956
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_pix_25'
-Slack : -0.394
-TNS   : -15.909
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'VGA_DRIVER:vga_inst|VGA_HS'
 Slack : -0.394
-TNS   : -11.632
+TNS   : -9.918
 
-Type  : Slow 1100mV 0C Model Setup 'clk_pix_25'
-Slack : -3.347
-TNS   : -71.543
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.793
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.237
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 19.144
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -7.572
+TNS   : -145.911
 
 Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
-Slack : -2.752
-TNS   : -8.738
+Slack : -6.041
+TNS   : -10.579
 
 Type  : Slow 1100mV 0C Model Setup 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : -2.366
-TNS   : -40.871
+Slack : -4.897
+TNS   : -40.143
+
+Type  : Slow 1100mV 0C Model Hold 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.941
+TNS   : -24.207
 
 Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
-Slack : -0.316
-TNS   : -0.316
-
-Type  : Slow 1100mV 0C Model Hold 'clk_pix_25'
-Slack : 0.395
-TNS   : 0.000
+Slack : -0.839
+TNS   : -0.839
 
 Type  : Slow 1100mV 0C Model Hold 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : 0.528
+Slack : 0.376
 TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -0.599
-TNS   : -2.801
-
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_pix_25'
-Slack : -0.394
-TNS   : -16.042
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'VGA_DRIVER:vga_inst|VGA_HS'
 Slack : -0.394
-TNS   : -11.522
+TNS   : -9.756
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.793
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.290
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 19.098
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -7.012
+TNS   : -130.234
 
 Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
-Slack : -2.324
-TNS   : -7.573
-
-Type  : Fast 1100mV 85C Model Setup 'clk_pix_25'
-Slack : -1.810
-TNS   : -35.409
+Slack : -3.405
+TNS   : -7.654
 
 Type  : Fast 1100mV 85C Model Setup 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : -1.251
-TNS   : -18.123
+Slack : -2.976
+TNS   : -17.948
 
-Type  : Fast 1100mV 85C Model Hold 'clk_pix_25'
-Slack : 0.166
-TNS   : 0.000
+Type  : Fast 1100mV 85C Model Hold 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -0.572
+TNS   : -5.258
 
 Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
-Slack : 0.182
-TNS   : 0.000
+Slack : -0.441
+TNS   : -0.441
 
 Type  : Fast 1100mV 85C Model Hold 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : 0.221
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'VGA_DRIVER:vga_inst|VGA_HS'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.793
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -0.640
-TNS   : -2.708
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : 0.122
+Slack : 9.107
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_pix_25'
-Slack : 0.125
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 19.396
 TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -5.727
+TNS   : -106.199
 
 Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
-Slack : -1.931
-TNS   : -6.007
-
-Type  : Fast 1100mV 0C Model Setup 'clk_pix_25'
-Slack : -1.567
-TNS   : -30.668
+Slack : -3.267
+TNS   : -6.550
 
 Type  : Fast 1100mV 0C Model Setup 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : -1.066
-TNS   : -15.653
+Slack : -2.574
+TNS   : -15.309
+
+Type  : Fast 1100mV 0C Model Hold 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -0.922
+TNS   : -11.442
 
 Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
-Slack : -0.028
-TNS   : -0.028
-
-Type  : Fast 1100mV 0C Model Hold 'clk_pix_25'
-Slack : 0.120
-TNS   : 0.000
+Slack : -0.559
+TNS   : -0.559
 
 Type  : Fast 1100mV 0C Model Hold 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : 0.193
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -0.685
-TNS   : -3.220
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_pix_25'
-Slack : 0.126
+Slack : 0.135
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'VGA_DRIVER:vga_inst|VGA_HS'
-Slack : 0.128
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.793
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'alt_clk_spd|pll75_50_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 19.382
 TNS   : 0.000
 
 ------------------------------------------------------------

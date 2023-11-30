@@ -1,5 +1,5 @@
 EDA Netlist Writer report for FPGAGraphics
-Thu Nov 30 13:59:50 2023
+Thu Nov 30 16:59:27 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Nov 30 13:59:50 2023 ;
+; EDA Netlist Writer Status ; Successful - Thu Nov 30 16:59:27 2023 ;
 ; Revision Name             ; FPGAGraphics                          ;
 ; Top-level Entity Name     ; FPGAGraphics                          ;
 ; Family                    ; Cyclone V                             ;
@@ -93,18 +93,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Thu Nov 30 13:59:49 2023
+    Info: Processing started: Thu Nov 30 16:59:27 2023
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=/home/soc/Documents/Tutorial_SOC/simulation/qsim/ FPGAGraphics -c FPGAGraphics
-Warning (20013): Ignored 16 assignments for entity "PLL75_50" -- entity does not exist in design
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity PLL75_50 -sip PLL75_50.sip -library lib_PLL75_50 was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 18.1 -entity PLL75_50 -sip PLL75_50.sip -library lib_PLL75_50 was ignored
-    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV mwpim -entity PLL75_50 -sip PLL75_50.sip -library lib_PLL75_50 was ignored
-Warning (20013): Ignored 317 assignments for entity "PLL75_50_0002" -- entity does not exist in design
 Info (204019): Generated file FPGAGraphics.vo in folder "/home/soc/Documents/Tutorial_SOC/simulation/qsim//" for EDA simulation tool
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 1125 megabytes
-    Info: Processing ended: Thu Nov 30 13:59:50 2023
-    Info: Elapsed time: 00:00:01
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1229 megabytes
+    Info: Processing ended: Thu Nov 30 16:59:27 2023
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Thu Nov 30 13:58:28 2023
+Analysis & Synthesis Status : Successful - Thu Nov 30 16:57:16 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : FPGAGraphics
 Top-level Entity Name : FPGAGraphics
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 39
-Total pins : 62
+Total registers : 46
+Total pins : 63
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0
@@ -13,5 +13,5 @@ Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0
 Total HSSI PMA TX Serializers : 0
-Total PLLs : 0
+Total PLLs : 1
 Total DLLs : 0

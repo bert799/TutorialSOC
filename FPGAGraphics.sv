@@ -14,21 +14,22 @@ module FPGAGraphics (
 	output 		logic [8:0] LEDR,
 	
 	output logic [10:0]H_Cont,
-	output logic [10:0]V_Cont
+	output logic [10:0]V_Cont,
+	output logic clk_pix
 );
 
-assign VGA_CLK = clk_pix_25;
+//assign VGA_CLK = clk_pix_25;
 
 logic clk_pix_25;
 wire clk_pix_75;
 wire clk_pix_locked;
 
-	always_ff @(posedge CLOCK_50) begin
+/*	always_ff @(posedge CLOCK_50) begin
 		if(clk_pix_25==1)
 			clk_pix_25 = 0;
 		else
 			clk_pix_25 = 1;
-	end
+	end */
 /*
 //	For VGA Controller
 wire	[9:0]	mRed;
@@ -45,14 +46,14 @@ assign	LEDR[8:0]	=	VGA_Y[8:0];
 assign	m1VGA_Read	=	VGA_Y[0]		?	1'b0		:	VGA_Read	;
 assign	m2VGA_Read	=	VGA_Y[0]		?	VGA_Read	:	1'b0		; */
 
-/*PLL75_50 alt_clk_spd 
+PLL75_50 alt_clk_spd 
 (
 	.refclk(CLOCK_50),
-	.rst(rst),
+	.rst(0),
 	.outclk_0(clk_pix_25),
 	.outclk_1(clk_pix_75),
 	.locked(clk_pix_locked)
-); */
+);
 
 VGA_DRIVER vga_inst
 (
@@ -101,9 +102,13 @@ VGA_Ctrl vga_inst
 );
 */
 	always_ff @(posedge CLOCK_50) begin
+
 		LEDR[0] <= VGA_BLANK_N;
 		LEDR[1] <= VGA_HS;
 		LEDR[2] <= VGA_VS;
 	end 
 
+assign VGA_CLK = clk_pix_25;
+
+	
 endmodule

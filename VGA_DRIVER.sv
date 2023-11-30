@@ -77,9 +77,9 @@ module VGA_DRIVER (
 	logic [7:0] paint_r, paint_g, paint_b;
 	always_comb begin
 		if (H_Cont < 256 && V_Cont < 256) begin  // colour square in top-left 256x256 pixels
-			paint_r = H_Cont[7:4];  // 16 horizontal pixels of each red level
-			paint_g = V_Cont[7:4];  // 16 vertical pixels of each green level
-			paint_b = 4'h4;     // constant blue level
+			paint_r = H_Cont[7:0];  // 16 horizontal pixels of each red level
+			paint_g = V_Cont[7:0];  // 16 vertical pixels of each green level
+			paint_b = 8'h4;     // constant blue level
 		end else begin  // background colour
 			paint_r = 4'h0;
 			paint_g = 4'h1;

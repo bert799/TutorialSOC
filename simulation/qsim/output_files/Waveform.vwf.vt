@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "11/30/2023 13:59:48"
+// Generated on "11/30/2023 16:59:26"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          FPGAGraphics
 // 
@@ -43,6 +43,7 @@ wire [7:0] VGA_R;
 wire VGA_SYNC_N;
 wire VGA_VS;
 wire [10:0] V_Cont;
+wire clk_pix;
 
 // assign statements (if any)                          
 FPGAGraphics i1 (
@@ -59,6 +60,7 @@ FPGAGraphics i1 (
 	.VGA_SYNC_N(VGA_SYNC_N),
 	.VGA_VS(VGA_VS),
 	.V_Cont(V_Cont),
+	.clk_pix(clk_pix),
 	.rst(rst)
 );
 initial 
