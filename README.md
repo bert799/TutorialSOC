@@ -22,4 +22,9 @@ decidimos desenvolver um projeto que explorasse outro componente presente nela: 
 O tutorial utilizado como motivador e guia do projeto foi: https://projectf.io/posts/fpga-graphics/
 
 ## Porta VGA
+Um cabo VGA, ou Video Graphics Array, é um tipo de cabo de vídeo que é responsável por conectar e transmitir imagens de um computador para um monitor, de forma analógica.
+
+## Projeto
+Neste repositório, foi implementado alguns arquivos em verilog, que tem como finalidade mostrar um retângulo em um monitor, atráves do sinal analógico transmitido pela VGA.
+Para implementar em sua placa, basta clonar o repositório e compilar no Quartus. Ao compilar, gravar na placa, e quando finalizar, o retângulo estará na tela do seu monitor
 
