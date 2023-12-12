@@ -1,6 +1,7 @@
 module VGA_DRIVER (
 	input wire 	logic clk_pix,   // pixel clock
 	input wire 	logic clk_locked,
+	input			logic [15:0] in_pixel,
 	output		logic VGA_BLANK_N,
 	output		logic VGA_SYNC_N,
 	output 		reg VGA_HS,     // horizontal sync
